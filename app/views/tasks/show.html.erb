@@ -1,0 +1,15 @@
+<h1 class="mb-5"><%= @task.title %></h1>
+
+<section class="description-box pl-4">
+  <p><%= @task.details %></li></p>
+</section>
+
+<section class="complete-task-box pl-4">
+  <input type="checkbox" disabled <%= "checked" if @task.completed %> > 
+  <p>The task is completed</p>
+</section>
+
+<footer>
+  <%= link_to "Edit task", edit_path, class: "btn btn-primary mx-4"%>
+  <%= link_to "Back to list", tasks_path, class: "btn btn-primary mx-4" %>
+</footer>

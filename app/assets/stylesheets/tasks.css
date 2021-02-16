@@ -1,0 +1,24 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+ul {
+  list-style-type: none;
+
+}
+
+.description-box {
+  background: lightgrey;
+  padding: 10px 4px;
+}
+
+.complete-task-box {
+  padding: 10px 4px;
+}
+.complete-task-box p {
+  display: inline;
+}
+
+.form-container {
+  width: 500px;
+}
